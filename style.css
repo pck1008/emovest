@@ -282,9 +282,9 @@ body.dark .switch::before{
 }
 
 .sidebar.close ~ .home{
-    left: 78px;
+    left: 20px;
     height: 100vh;
-    width: calc(100% - 78px);
+    width: calc(100% );
 }
 body.dark .home .text{
     color: var(--text-color);

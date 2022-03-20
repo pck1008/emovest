@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <script src="./js/walletlogin.js"></script>
+
+    <!--web3-->
+    <script
+            src="./js/walletlogin.js"
+    ></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+            integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    ></script>
+
 </head>
 
 
@@ -126,7 +137,7 @@
     console.log( page );
 
     switch (page){
-        case "index.html":
+        case "home.html":
             page="情緒儀表板";
             break;
 
@@ -140,6 +151,8 @@
     }
     document.getElementById("titletext").innerHTML = page;
     console.log( page );
+
+
 
 </script>
 
