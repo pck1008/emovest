@@ -8,7 +8,7 @@ window.onload = async () => {
         alert("No ETH brower extension detected.");
     }
     // Load in Localstore key
-    window.userAddress = window.localStorage.getItem("userAddress");
+    
     showAddress();
 };
 
